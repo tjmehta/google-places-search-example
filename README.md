@@ -19,7 +19,7 @@ GOOGLE_API_KEY=<google_api_key> node index.js
 ```
 
 Output:
-```
+```json
 {
   "name": "philz coffee",
   "address": "399 Golden Gate Ave, San Francisco, CA 94102",
