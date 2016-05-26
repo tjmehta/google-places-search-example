@@ -13,7 +13,6 @@ var input = [
 ]
 
 // get data from google
-var _i = 0
 map(input, function (inItem, cb) {
   googlePlaces.getByNameAndAddress(inItem, function (err, json) {
     var outItem = assign({}, inItem)

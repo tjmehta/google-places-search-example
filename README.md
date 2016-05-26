@@ -1,7 +1,21 @@
 # google-places-search-example
 google places search script example in node.js
 
+# Requirements
+[Node.js](https://nodejs.org/en/download/)
+
 # Usage
+Clone this repository:
+```bash
+git clone https://github.com/tjmehta/google-places-search-example.git
+```
+
+Install NPM Dependencies:
+```bash
+# in repository directory
+npm i
+```
+
 Modify Input (on index.js line 8):
 ```js
 var input = [
@@ -15,6 +29,7 @@ var input = [
 
 Command:
 ```bash
+# in repository directory
 GOOGLE_API_KEY=<google_api_key> node index.js
 ```
 
