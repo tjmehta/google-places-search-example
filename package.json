@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/tjmehta/google-places-search-example",
   "dependencies": {
-    "101": "^1.5.0",
+    "101": "^1.6.3",
     "assert-env": "^0.6.0",
     "async": "^2.0.0-rc.5",
     "request": "^2.72.0"
